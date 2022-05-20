@@ -1,0 +1,31 @@
+//Sarugan R _ IT21243530
+# include "Payment.h"
+# include <cstring>
+# include <iostream>
+using namespace std;
+
+
+Payment::Payment(double amt, char sts [], int pid, char ptype[])//overloaded constructor
+{
+        amount = amt;
+        status = sts;
+        payment_id = pid;
+        payment_type = ptype;
+}
+
+void Payment::getPaymentType (){
+  
+}
+
+void Payment::calcFine (){
+  
+}
+
+void Payment::displayPayDetails(){
+  
+}
+
+Payment::~Payment()//destructor
+{
+    cout << "Destructor runs";
+}

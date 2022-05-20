@@ -1,0 +1,17 @@
+//Sarugan R _ IT21243530
+#pragma once
+class Payment{
+  private :
+      double amount;
+      string status;
+      int payment_id;
+      string payment_type;
+
+  public :
+      Payment(); //default constructor
+      Payment (double amt, char sts [], int pid, char ptype[]); //overloaded constructor
+      void getPaymentType ();
+      void calcFine ();
+      void displayPayDetails ();
+      ~Payment(); //destructor
+};

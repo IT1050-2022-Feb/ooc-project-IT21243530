@@ -1,0 +1,14 @@
+//Sarugan R _ IT21243530
+#Pragma once
+class Reservation{
+  private :
+      int reservaion_id;
+      string reserved_date;
+      string reserved_time;
+      
+  public :
+      Reservation(); //default constructor
+      Reservation(int rid, char rdate [], char rtime[]);//overloaded constructor
+      void displayResDetails ();
+      ~Reservation(); //destructor
+};

@@ -1,0 +1,21 @@
+//Sarugan R _ IT21243530
+# include "Reservation.h"
+# include <cstring>
+# include <iostream>
+using namespace std;
+
+Reservation::Reservation(int rid, char rdate [], char rtime[])//overloaded constructor
+{
+        reservation_id = rid;
+        reserved_date = rdate;
+        reserved_time = rtime;
+}
+
+void Reservation::displayResDetails(){
+  
+}
+
+Reservation::~Reservation() //destructor
+{
+    cout << "Destructor runs";
+}
